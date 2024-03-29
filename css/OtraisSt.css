@@ -1,0 +1,127 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+li{
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.container-2 {
+  width: 100vw;
+  height: 100vh;
+  font-family: "Quicksand", sans-serif;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: 80px repeat(13, 1fr) * 100px;
+}
+
+.header-2 {
+  grid-row: 1;
+  grid-column: 1 / span 7;
+
+  background-color: #085454;
+  width: 100vw;
+  height: 80px;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: 1fr;
+  margin-top: 0px;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.back-2 {
+  grid-column: 1;
+  padding: 0;
+  align-self: center;
+}
+
+.backbut-2 {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.title-2 {
+  justify-self: center;
+  align-self: center;
+  grid-row: 1;
+  grid-column: 4 / span 1;
+}
+
+.image2st {
+  height: 100%;
+  width: 100%;
+  grid-column: 3 / span 3;
+  grid-row: 3 / span 4;
+}
+
+.centetContent-2 {
+  grid-column: 1 / span 7;
+  grid-row: 8 / span 3;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: subgrid;
+  grid-template-rows: subgrid;
+}
+
+.title-2st-254 {
+  grid-column: 2;
+  grid-row: 1;
+  justify-self: center;
+  align-self: end;
+  font-size: 40px;
+}
+
+.parag-254 {
+  grid-column: 3 / span 2;
+  grid-row: 2 / span 1;
+}
+
+.kab2st-254 {
+  height: 100%;
+  width: 100%;
+  grid-column: 5 / span 2;
+  grid-row: 1 / span 3;
+}
+
+.centetContent2-2 {
+  grid-column: 1 / span 7;
+  grid-row: 12 / span 3;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: subgrid;
+  grid-template-rows: subgrid;
+}
+
+.title-2st-256 {
+  grid-column: 2;
+  grid-row: 1;
+  justify-self: center;
+  align-self: end;
+  font-size: 40px;
+}
+
+.kab2st-256 {
+  height: 100%;
+  width: 100%;
+  grid-column: 5 / span 2;
+  grid-row: 1 / span 3;
+}
+
+.parag-256 {
+  grid-column: 3 / span 2;
+  grid-row: 2 / span 1;
+}
+
+.background-rtu-2 { 
+  position: fixed;
+  z-index: -1;
+  opacity: 0.3;
+  justify-self: center;
+  align-self: center;
+}
